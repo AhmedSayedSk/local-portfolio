@@ -1,5 +1,4 @@
 import { createStore } from 'vuex';
-import { Quasar } from 'quasar';
 
 const store = createStore({
   state: {
@@ -14,7 +13,6 @@ const store = createStore({
   getters: {
     // Define your getters here
   },
-  plugins: [Quasar]
 });
 
 export default store;

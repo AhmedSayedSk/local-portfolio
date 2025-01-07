@@ -5,13 +5,8 @@
 </template>
 
 <script>
-import { QPage } from 'quasar';
-
 export default {
   name: 'HelloWorld',
-  components: {
-    QPage
-  }
 }
 </script>
 
