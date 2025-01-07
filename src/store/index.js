@@ -1,4 +1,5 @@
 import { createStore } from 'vuex';
+import { Quasar } from 'quasar';
 
 const store = createStore({
   state: {
