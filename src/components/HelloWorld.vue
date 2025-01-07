@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <!-- Content will go here -->
+    Content will go here
   </q-page>
 </template>
 

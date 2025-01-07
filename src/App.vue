@@ -1,16 +1,15 @@
 <template>
-  <q-layout id="app">
-    <!-- Content will go here -->
-  </q-layout>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import { QLayout } from 'quasar';
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    QLayout
+    HelloWorld
   }
 }
 </script>
