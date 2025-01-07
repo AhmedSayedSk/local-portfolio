@@ -1,12 +1,17 @@
 <template>
-  <div id="app">
+  <q-layout id="app">
     <!-- Content will go here -->
-  </div>
+  </q-layout>
 </template>
 
 <script>
+import { QLayout } from 'quasar';
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    QLayout
+  }
 }
 </script>
 

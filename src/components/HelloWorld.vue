@@ -1,12 +1,17 @@
 <template>
-  <div>
+  <q-page>
     <!-- Content will go here -->
-  </div>
+  </q-page>
 </template>
 
 <script>
+import { QPage } from 'quasar';
+
 export default {
-  name: 'HelloWorld'
+  name: 'HelloWorld',
+  components: {
+    QPage
+  }
 }
 </script>
 
