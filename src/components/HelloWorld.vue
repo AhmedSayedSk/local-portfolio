@@ -5,6 +5,8 @@
 </template>
 
 <script>
+import { Quasar } from 'quasar'
+
 export default {
   name: 'HelloWorld',
 }
